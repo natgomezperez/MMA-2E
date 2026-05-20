@@ -29,7 +29,8 @@ def WriteCDF(ds_mma, params,OutputDir=pwd):
     '''
     pre='SW_TEST_SHA_MMA_2E_' 
     su='_0101.cdf'
-    time=cp.data_utils.timestamp(ds_mma.time).astype(dt)
+    #time=cp.data_utils.timestamp(ds_mma.time).astype(dt)
+    time=ds_mma.time
     # tini=min(timeL2[0],timeL3[0])
     # tfin=max(timeL2[-1],timeL3[-1])
     tini=time[0]

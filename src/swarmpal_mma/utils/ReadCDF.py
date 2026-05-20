@@ -18,7 +18,7 @@ import os
 import glob
 
 
-InDir='/users/ngp/QMatrix/data/2025'
+#InDir='/users/ngp/QMatrix/data/2025'
 
 
 
