@@ -65,6 +65,6 @@ apexpy_wheels = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["."]
-python_files = ["MMA_SHA_2E.ipynb"]
+testpaths = [".", "tests"]
+python_files = ["MMA_SHA_2E.ipynb", "tests/*.py"]
 addopts = "--nbmake"
